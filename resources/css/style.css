@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsl(240, 55%, 41%);
+}
+
+h2 {
+  color: hsl(347, 90%, 63%);
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: hsl(240, 55%, 41%);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin-left: auto;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
