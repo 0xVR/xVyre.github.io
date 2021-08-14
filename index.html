@@ -5,16 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/style.css">
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
     <title>xVyre</title>
 </head>
 <body>
     <nav>
-        <h2>xVyre</h2>
+        <h2 class="logo">xVyre</h2>
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+
+    <main>
+        <section id="about">
+            <h1>Hi! I'm <span class="logo">xVyre</span>, a full stack web developer</h1>
+        </section>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <span class="iconify" data-icon="fa-brands:html5"></span>
+            <span class="iconify" data-icon="fa-brands:css3-alt"></span>
+            <span class="iconify" data-icon="fa-brands:js"></span>
+            <a href="https://python.org" target="_blank"><span class="iconify" data-icon="fa-brands:python"></span></a>
+            <a href="https://git-scm.com" target="_blank"><span class="iconify" data-icon="fa-brands:git-alt"></span></a>
+            <span class="iconify" data-icon="fa-solid:database"></span>
+            <a href="https://www.typescriptlang.org" target="_blank"><span class="iconify" data-icon="file-icons:typescript-alt"></span></a>
+            <a href="https://nodejs.org" target="_blank"><span class="iconify" data-icon="fa-brands:node"></span></a>
+        </section>
+
+        <section id="contact">
+            <h2>You can find me on</h2>
+            <a href="https://github.com/xVyre" target="_blank"><span class="iconify" data-icon="fa-brands:github"></span></a>
+            <a href="mailto:xvyree@gmail.com"><span class="iconify" data-icon="mdi:email"></span></a>
+        </section>
+    </main>
 </body>
 </html>
