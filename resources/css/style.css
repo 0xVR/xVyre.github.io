@@ -14,7 +14,7 @@ body {
   background-color: hsl(238, 69%, 24%);
   text-align: center;
   font-family: Ubuntu, sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: white;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 section h2 {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 #skills {
@@ -39,12 +39,12 @@ section h2 {
 }
 
 h1 {
-  font-size: 48px;
-  padding: 80px 0;
+  font-size: 3rem;
+  padding: 5rem 0;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 0;
 }
 
@@ -55,7 +55,7 @@ h2 {
 nav {
   display: flex;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 3.125%;
 }
 
 ul {
@@ -67,7 +67,7 @@ ul {
 
 li {
   display: inline;
-  padding: 12px;
+  padding: 0.75rem;
 }
 
 a {
@@ -76,8 +76,8 @@ a {
 }
 
 .iconify {
-  font-size: 36px;
-  margin: 0 5px 5px 0;
+  font-size: 2.25rem;
+  margin: 0 0.3125rem 0.3125rem 0;
 }
 
 .container {
